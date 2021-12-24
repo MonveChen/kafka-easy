@@ -1,6 +1,6 @@
 {
   "name": "@monvechen/kafka-easy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "for manager cookies",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
     "prepare": "husky install",
     "link": "npm run build && npm link",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
