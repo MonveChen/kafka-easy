@@ -2,8 +2,8 @@
  * @Author: Monve
  * @Date: 2021-12-17 15:54:15
  * @LastEditors: Monve
- * @LastEditTime: 2021-12-24 11:33:45
- * @FilePath: /lzb-puppeteer-crawler/src/utils/KafkaEasy.ts
+ * @LastEditTime: 2021-12-24 14:53:52
+ * @FilePath: /kafka-easy/src/KafkaEasy.ts
  */
 import { Admin, Consumer, Kafka, KafkaConfig, Message, Producer } from 'kafkajs'
 
@@ -20,7 +20,7 @@ export class KafkaEasy {
     this.groupId = groupId || `${topic}_group`;
     this.admin = kafka.admin()
     this.producer = kafka.producer()
-    if (groupId) this.consumer = kafka.consumer({ groupId: this.groupId })
+    this.consumer = kafka.consumer({ groupId: this.groupId })
   }
 
   fetchOffset = async () => {
