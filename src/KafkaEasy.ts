@@ -2,7 +2,7 @@
  * @Author: Monve
  * @Date: 2021-12-17 15:54:15
  * @LastEditors: Monve
- * @LastEditTime: 2021-12-24 14:53:52
+ * @LastEditTime: 2021-12-27 14:15:26
  * @FilePath: /kafka-easy/src/KafkaEasy.ts
  */
 import { Admin, Consumer, Kafka, KafkaConfig, Message, Producer } from 'kafkajs'
@@ -62,3 +62,5 @@ export class KafkaEasy {
   }
 
 }
+
+export * from 'kafkajs'
