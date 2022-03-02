@@ -1,7 +1,7 @@
 {
   "name": "@monvechen/kafka-easy",
-  "version": "1.0.3",
-  "description": "for manager cookies",
+  "version": "1.0.4",
+  "description": "easy use for kafkajs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
