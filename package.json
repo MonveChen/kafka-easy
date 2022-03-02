@@ -1,6 +1,6 @@
 {
   "name": "@monvechen/kafka-easy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "easy use for kafkajs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,8 +21,9 @@
     "url": "git+https://github.com/MonveChen/kafka-easy.git"
   },
   "keywords": [
-    "cookie",
-    "manager"
+    "kafka",
+    "easy",
+    "node"
   ],
   "author": "Monve",
   "license": "Apache-2.0",
